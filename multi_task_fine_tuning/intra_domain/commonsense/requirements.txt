@@ -1,0 +1,16 @@
+accelerate==0.29.2
+appdirs==1.4.4
+bitsandbytes==0.43.1
+black==24.4.0
+datasets==2.18.0
+fire==0.6.0
+numpy==1.26.4
+protobuf==5.29.4
+safetensors==0.5.3
+sentencepiece==0.2.0
+scikit-learn==1.6.1
+scipy==1.15.2
+tokenizers==0.19.1
+torch==2.2.2
+tqdm==4.67.1
+transformers==4.40.0
