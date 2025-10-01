@@ -3,7 +3,7 @@ Official implementation of *[Rethinking Parameter Sharing for LLM Fine-Tuning wi
 
 
 
-Previous research has shown that the $A$ matrices from LoRAs fine-tuned on different tasks are often similar. We empirically find that this similarity arises from using the same initialization. When LoRAs share the same initialization, their $A$ matrices remain similar across tasks. In contrast, with different initializations, the $A$ matrices from the same task are not similar. 
+Previous research works ([HydraLoRA](https://arxiv.org/abs/2404.19245), [FedSA-LoRA](https://arxiv.org/abs/2410.01463)) have shown that the $A$ matrices from LoRAs fine-tuned on different tasks are often similar. We empirically find that this similarity arises from using the same initialization. When LoRAs share the same initialization, their $A$ matrices remain similar across tasks. In contrast, with different initializations, the $A$ matrices from the same task are not similar. 
 
 <p align="center">
   <img src="assets/initialization.png" alt="Similarity" width="800">
