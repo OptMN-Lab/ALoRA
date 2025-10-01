@@ -30,4 +30,4 @@ Motivated by these findings, we propose sharing the $B$ matrix during fine-tunin
 </p>
 
 
-For multi-task fine-tuning and federated fine-tuning, please refer to each folder for more details.
+Please refer to each folder for more details.
