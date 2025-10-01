@@ -1,4 +1,4 @@
-Official implementation of *Rethinking Parameter Sharing for LLM Fine-Tuning with Multiple LoRAs*
+Official implementation of *[Rethinking Parameter Sharing for LLM Fine-Tuning with Multiple LoRAs](https://arxiv.org/abs/2509.25414)*
 
 
 
@@ -6,14 +6,14 @@ Official implementation of *Rethinking Parameter Sharing for LLM Fine-Tuning wit
 Previous research has shown that the $A$ matrices from LoRAs fine-tuned on different tasks are often similar. We empirically find that this similarity arises from using the same initialization. When LoRAs share the same initialization, their $A$ matrices remain similar across tasks. In contrast, with different initializations, the $A$ matrices from the same task are not similar. 
 
 <p align="center">
-  <img src="assets/initialization.png" alt="Similarity" width="700">
+  <img src="assets/initialization.png" alt="Similarity" width="800">
 </p>
 
 
 Furthermore, we analyze the similarity, magnitude, and direction changes of LoRA modules before and after fine-tuning. First, we observe that the $A$ matrix changes very little, whereas the $B$ matrix exhibits substantial variation. Second, LoRA shows only limited changes in magnitude, while most of the directional change is captured by $B$. These findings suggest that $B$ plays a more critical role than $A$ in encoding knowledge.
 
 <p align="center">
-  <img src="assets/variation.png" alt="Variation" width="700">
+  <img src="assets/variation.png" alt="Variation" width="800">
 </p>
 
 
